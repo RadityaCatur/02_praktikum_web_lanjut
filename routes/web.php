@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/articles/{id}', function ($id) {
-    echo "Halaman Artikel dengan ID: $id";
+    echo "Ini merupakan halaman artikel dengan id: $id";
 });

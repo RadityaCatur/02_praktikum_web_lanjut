@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    echo "Selamat Datang!";
+Route::get('/about', function () {
+    echo "NIM: 2041720198<br>";
+    echo "Nama: Raditya Catur Narendra<br>";
+    echo "Kelas: TI 2B<br>";
 });
